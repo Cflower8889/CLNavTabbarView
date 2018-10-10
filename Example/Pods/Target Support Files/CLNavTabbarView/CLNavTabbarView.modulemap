@@ -1,0 +1,6 @@
+framework module CLNavTabbarView {
+  umbrella header "CLNavTabbarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

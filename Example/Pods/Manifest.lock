@@ -1,0 +1,37 @@
+PODS:
+  - CLNavTabbarView (0.1.0):
+    - Masonry
+    - YYKit
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - CLNavTabbarView (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+    - Masonry
+    - YYKit
+
+EXTERNAL SOURCES:
+  CLNavTabbarView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLNavTabbarView: db3e06d2adef5daa6887362566b81d4c273c085f
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 40ea7231e0d00c25a0e4552a0b7f3a377ce15018
+
+COCOAPODS: 1.5.3

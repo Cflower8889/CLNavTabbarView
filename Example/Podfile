@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'CLNavTabbarView_Example' do
+  pod 'CLNavTabbarView', :path => '../'
+
+  target 'CLNavTabbarView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+ 
+  end
+end
